@@ -1,0 +1,1 @@
+SendIT is an application that allows users to deliver percels to different destinations.
