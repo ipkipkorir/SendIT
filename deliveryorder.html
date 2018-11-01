@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+	<title>Store Manager</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<header>
+            <div id="logo"><!--logo area-->
+                <h1>SendIT Percel Services</h1>
+            </div>
+            <div id="top-nav"><!--navigation on top of page-->
+                <ul>
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="login.html"> Logout</a></li>
+                    <li><a href="index.html"> Create Account </a></li>
+                </ul>
+            </div>
+	</header>
+
+	<section id="delivery_order">
+		<div class="main"><!--delivery order form-->
+			<form action="#">
+                <h2>Create Delivery Order</h2><hr>
+                <label>From: </label> <br>
+                <select type="text" name="origin"><br>
+                    <option value="Nakuru">Nakuru</option>
+                    <option value="Kisumu">Kisumu</option>
+                    <option value="Eldoret">Eldoret</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Thika">Thika</option>
+                    <option value="Nyeri">Nyeri</option>
+                    <option value="Busia">Busia</option>
+                    <option value="Garissa">Garissa</option>
+                    <option value="Kitui">Kitui</option>
+                </select><br>
+                <label>To:</label><br>
+                <select type="text" name="destination"><br>
+                    <option value="Nakuru">Nakuru</option>
+                    <option value="Kisumu">Kisumu</option>
+                    <option value="Eldoret">Eldoret</option>
+                    <option value="Mombasa">Mombasa</option>
+                    <option value="Nairobi">Nairobi</option>
+                    <option value="Thika">Thika</option>
+                    <option value="Nyeri">Nyeri</option>
+                    <option value="Busia">Busia</option>
+                    <option value="Garissa">Garissa</option>
+                    <option value="Kitui">Kitui</option>
+                </select><br>
+                <label>Weight: </label><br>
+                <select type="text" name="weight"><br>
+                    <option value="0-5kg">0-5kg</option>
+                    <option value="6-10kg">6-10kg</option>
+                    <option value="11-15kg">11-15kg</option>
+                    <option value="16-20kg">16-20kg</option>
+                    <option value="21-25kg">21-25kg</option>
+                    <option value="26-30kg">26-30kg</option>
+                </select><br>
+				<button>Submit</button><br>
+			</form>
+		</div>
+	</section>
+
+</body>
+</html>
