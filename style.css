@@ -126,3 +126,38 @@ button:hover {
     border-radius: 25px;
 }
 
+/*admin page*/
+.main-container {
+    width: 99%;
+    margin: auto;
+    display: inline-flex;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+}
+.delivery-order {
+    width: 33%;
+    background: lightgray;
+    border-radius: 10px;
+    margin: 8px;
+    padding: 8px;
+}
+.delivery-order select{
+    width: 100%;
+    padding: 8px;
+}
+.delivery-order button{
+    width: auto;
+}
+.delivery-order h3 {
+    margin: 0;
+    padding: 15px 0 10px 8px;
+}
+span {
+    font-weight: bold;
+    text-align: left;
+    line-height: 1.5;
+}
+.delivery-order li {
+    display: block;
+    line-height: 2.0;
+}
